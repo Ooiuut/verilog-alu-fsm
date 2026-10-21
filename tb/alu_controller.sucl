@@ -1,0 +1,18 @@
+# Public request/response signals, followed by internal state and captured inputs.
+variable_add tb_alu_controller.clk
+variable_add tb_alu_controller.rst
+variable_add tb_alu_controller.start
+variable_add tb_alu_controller.busy
+variable_add tb_alu_controller.done
+variable_add tb_alu_controller.opcode
+variable_add tb_alu_controller.operand_a
+variable_add tb_alu_controller.operand_b
+variable_add tb_alu_controller.result
+variable_add tb_alu_controller.carry
+variable_add tb_alu_controller.borrow
+variable_add tb_alu_controller.overflow
+variable_add tb_alu_controller.dut.state
+variable_add tb_alu_controller.dut.opcode_reg
+variable_add tb_alu_controller.dut.operand_a_reg
+variable_add tb_alu_controller.dut.operand_b_reg
+zoom_fit

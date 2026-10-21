@@ -1,0 +1,11 @@
+{
+    "verilog.linting.linter": "iverilog",
+    "verilog.linting.path": "/opt/homebrew/bin",
+    "verilog.linting.iverilog.verilogHDL.standard": "Verilog-2005",
+    "verilog.linting.iverilog.arguments": "-Wall -y rtl -y rtl/smoke",
+    "verilog.linting.iverilog.runAtFileLocation": false,
+    "[verilog]": {
+        "editor.tabSize": 4,
+        "editor.insertSpaces": true
+    }
+}

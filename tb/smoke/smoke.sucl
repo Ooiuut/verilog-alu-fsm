@@ -1,0 +1,6 @@
+# Display only the four top-level signals, in a useful order.
+variable_add tb_smoke_dff.clk
+variable_add tb_smoke_dff.rst
+variable_add tb_smoke_dff.d
+variable_add tb_smoke_dff.q
+zoom_fit

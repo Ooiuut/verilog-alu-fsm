@@ -1,0 +1,8 @@
+# All generated simulation executables, waveforms, and logs live here.
+/sim/
+
+# Local planning notes used while setting up the project.
+/docs/superpowers/
+
+# macOS Finder metadata.
+.DS_Store

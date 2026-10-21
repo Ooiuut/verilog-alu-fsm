@@ -1,0 +1,144 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Verilog: simulate",
+            "type": "process",
+            "command": "/usr/bin/make",
+            "args": [
+                "sim"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}",
+                "env": {
+                    "PATH": "/opt/homebrew/bin:${env:PATH}"
+                }
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Verilog: compile",
+            "type": "process",
+            "command": "/usr/bin/make",
+            "args": [
+                "compile"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}",
+                "env": {
+                    "PATH": "/opt/homebrew/bin:${env:PATH}"
+                }
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Verilog: simulate and view waves",
+            "type": "process",
+            "command": "/usr/bin/make",
+            "args": [
+                "wave"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}",
+                "env": {
+                    "PATH": "/opt/homebrew/bin:${env:PATH}"
+                }
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Verilog: view last waves",
+            "type": "process",
+            "command": "/usr/bin/make",
+            "args": [
+                "view"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}",
+                "env": {
+                    "PATH": "/opt/homebrew/bin:${env:PATH}"
+                }
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Verilog: lint",
+            "type": "process",
+            "command": "/usr/bin/make",
+            "args": [
+                "lint"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}",
+                "env": {
+                    "PATH": "/opt/homebrew/bin:${env:PATH}"
+                }
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Verilog: synthesize",
+            "type": "process",
+            "command": "/usr/bin/make",
+            "args": [
+                "synth"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}",
+                "env": {
+                    "PATH": "/opt/homebrew/bin:${env:PATH}"
+                }
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Verilog: check all",
+            "type": "process",
+            "command": "/usr/bin/make",
+            "args": [
+                "check"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}",
+                "env": {
+                    "PATH": "/opt/homebrew/bin:${env:PATH}"
+                }
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Verilog: clean",
+            "type": "process",
+            "command": "/usr/bin/make",
+            "args": [
+                "clean"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}",
+                "env": {
+                    "PATH": "/opt/homebrew/bin:${env:PATH}"
+                }
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Verilog: original DFF smoke test",
+            "type": "process",
+            "command": "/usr/bin/make",
+            "args": [
+                "smoke"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}",
+                "env": {
+                    "PATH": "/opt/homebrew/bin:${env:PATH}"
+                }
+            },
+            "problemMatcher": []
+        }
+    ]
+}
